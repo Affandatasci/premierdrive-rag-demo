@@ -1,0 +1,8 @@
+streamlit
+langgraph
+langchain-core
+langchain-groq
+sentence-transformers
+requests
+python-dotenv
+pypdf
