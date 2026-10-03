@@ -31,7 +31,7 @@ QDRANT_URL     = os.environ["QDRANT_URL"].rstrip("/")
 QDRANT_API_KEY = os.environ["QDRANT_API_KEY"]
 COLLECTION     = os.environ.get("QDRANT_COLLECTION", "premierdrive_demo")
 GROQ_API_KEY   = os.environ["GROQ_API_KEY"]
-MAIN_MODEL     = os.environ.get("MAIN_MODEL", "openai/gpt-oss-120b")
+MAIN_MODEL = os.environ.get("MAIN_MODEL", "llama-3.3-70b-versatile")
 
 # bge-small-en-v1.5 (33M params, ~130MB, 384-dim).
 # Forced to CPU - letting sentence-transformers auto-detect CUDA on a
